@@ -28,6 +28,14 @@ public class ShortStringsArray {
                 index++;
             }
         }
+        // Вывод результата
+        System.out.println("Строки длиной меньше либо равной 3 символам:");
+        for (String s : resultArray) {
+            System.out.println(s);
+        }
+
+        scanner.close();
+    }
 
 
 }
