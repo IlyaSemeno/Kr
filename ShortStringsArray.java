@@ -19,6 +19,15 @@ public class ShortStringsArray {
                 count++;
             }
         }
+        // Создание нового массива для строк длиной <= 3
+        String[] resultArray = new String[count];
+        int index = 0;
+        for (String s : inputArray) {
+            if (s.length() <= 3) {
+                resultArray[index] = s;
+                index++;
+            }
+        }
 
 
 }
