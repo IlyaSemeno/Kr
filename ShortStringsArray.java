@@ -12,6 +12,13 @@ public class ShortStringsArray {
         for (int i = 0; i < n; i++) {
             inputArray[i] = scanner.nextLine();
         }
+        // Подсчет количества строк длиной <= 3
+        int count = 0;
+        for (String s : inputArray) {
+            if (s.length() <= 3) {
+                count++;
+            }
+        }
 
 
 }
